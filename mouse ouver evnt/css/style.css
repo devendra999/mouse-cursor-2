@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+  body {
+            background-color: #000;
+            overflow: hidden;
+        }
+        .container{
+            display: block;
+            /* position: relative; */
+            width: 100%;
+            height: 100%;
+            background-color:transparent;
+            margin: auto;
+            z-index: -2;
+            overflow: hidden;
+        }
+        .move-bg {
+            display: block;
+            position: absolute;
+            background: radial-gradient(rgba(255, 255, 255, .8) 5%, transparent 50%);
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            z-index: -1;
+        }
+        .year {
+            font-size: 15rem;
+            text-align: center;
+            font-family: Impact;
+            text-transform: uppercase;
+        }
+
+
+
+
+
